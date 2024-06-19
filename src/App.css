@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+  background-color:#AF8260 !important;
+  color: #322C2B !important;
+  text-align: center !important;
+  font-family: "Poetsen One" !important;
+}
+h1{
+  font-size: 80px !important;
+  color: #803D3B !important;
+  text-shadow: 3px 0px 0px rgba(255,255,255,0.6);
+}
+.cards{
+  display: flex !important;
+  justify-content: center !important;
+  justify-content: space-around !important;
+}
+img{
+  position: relative !important;
+  left: -3px !important;
+  width: 279px !important;
+}
+Nav{
+  color: white !important;
+}
+bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(0 0 0 / 0%) !important;}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #322C2B;
+    --bs-nav-link-hover-color: #803D3B !important;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #322C2B !important;
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+  font-weight: 700;
+  color: #322C2B !important;
+  border-bottom-color: currentcolor;
+}
